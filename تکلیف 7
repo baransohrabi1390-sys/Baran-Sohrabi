@@ -1,0 +1,15 @@
+# name="baran"
+# for i in name:
+#     if i[0] == "b":
+#         print(i[0])
+
+# name=["baran","faranak","sara"]
+# for i in name:
+#     print(i[0])
+
+name="baran"
+for i in name:
+    if name[0] == "s":
+        print("it starts with s")
+    else:
+        print("it doesnt start with s")

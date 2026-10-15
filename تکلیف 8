@@ -1,0 +1,38 @@
+# numbers=[30,9,42,16,4,23,8,15]
+# larger_20=[]
+# smaller_20=[]
+# for num in numbers:
+#     if num > 20:
+#         larger_20.append(num)
+#     else:
+#         smaller_20.append(num)
+
+# print(larger_20)
+# print(smaller_20)
+
+# numbers=[1,2,3,4,5,6]
+# double=[]
+# for num in numbers:
+#     double2=num * 2
+#     double.append(double2)
+
+# print(double)
+
+# names=["sara","baran","faranak","roz","melina"]
+# greater_than_4=[]
+# for name in names:
+#     if len(name) > 4:
+#         greater_than_4.append(name)
+
+# print(greater_than_4)
+
+# numbers=[]
+# total=0
+# for i in range(5):
+#     number=int(input("enter your number:"))
+#     numbers.append(number)
+#     total=number+total
+
+# print(numbers)
+# print(total)
+

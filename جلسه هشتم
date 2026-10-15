@@ -1,0 +1,28 @@
+# fruits=[]
+# fruits.append("apple")
+# fruits.append("orange")
+# print(fruits)
+
+
+# numbers=[]
+# for i in range(6):
+#     numbers.append(i)
+
+# print(numbers)
+
+# numbers=[4,7,10,3,8]
+# evens=[]
+# for num in numbers:
+#     if num % 2 == 0:
+#         evens.append(num)
+# print(evens)
+
+numbers=[2,9,6,11,5]
+biggest=numbers[0]
+list_biggest=[]
+for num in numbers:
+    if num > biggest:
+        biggest=num
+    
+list_biggest.append(biggest)
+print(list_biggest)

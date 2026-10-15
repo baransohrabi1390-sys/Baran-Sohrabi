@@ -1,0 +1,12 @@
+# for i in range(1,999):
+#     if i % 2 == 0:
+#         print(i,"zoj")
+#     else:
+#         print(i,"fard")
+
+
+sum = 0
+for i in range(1,6):
+    sum=sum+i
+    print("اولین پرینت",sum)
+print(sum)

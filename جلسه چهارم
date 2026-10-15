@@ -1,0 +1,3 @@
+fruits=["orange","apple","bannana"]
+for i in fruits:
+    print(i)

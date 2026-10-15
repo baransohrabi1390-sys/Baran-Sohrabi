@@ -1,0 +1,40 @@
+# def double(numbers):
+#     double=[]
+#     for num in numbers:
+#         double2=num * 2
+#         double.append(double2)
+
+#     return double
+
+# print(double([1,2,3,4,5]))
+
+# def week_hour():
+#     for day in range(1,8):
+#         for hour in range(1,25):
+#             print("day",day,"hour",hour)
+
+# week_hour()
+
+
+# def week_hour(days):
+#     for day in range(1,days+1):
+#         for hour in range(1,25):
+#             print("day",day,"hour",hour)
+
+# week_hour(4)
+
+
+# def count_total_hours(days):
+#     count=0
+#     for day in range(1,days+1):
+#         print(day)
+#         for hour in range(1,25):
+#             count=count+1
+
+#     print(count)
+            
+# count_total_hours(2)
+
+
+# for i in range(1,8):
+#     print(i)

@@ -1,0 +1,49 @@
+# numbers=[2,3,6,8,1,4]
+# for i in numbers:
+#     if i % 2 == 0:
+#         print(i,"zoj")
+
+# count=0
+# numbers=[2,6,3,7,1,9,8]
+# for i in numbers:
+#     if i > 5:
+#         count=count+i
+
+# print(count)
+
+count=0
+names=["baran","sara","samira"]
+for i in names:
+    if i[0] == "s":
+        count=count+1
+
+print(count)
+
+
+
+
+
+
+
+
+# numbers=[1,2,7,300,10,4]
+# biggest=numbers[0]
+# index=0
+# position=0
+# for i in numbers:
+#     if i > biggest:
+#         biggest=i
+#         position=index
+#     index=index+1
+
+ # num=numbers.index(biggest)
+ #  # print(num)
+
+# print(biggest)
+# print(position)
+
+
+
+
+
+

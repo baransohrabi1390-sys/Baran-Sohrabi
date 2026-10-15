@@ -1,0 +1,5 @@
+index=0
+my_list=[2,6,4,9]
+for i in my_list:
+    print("جایگاه",index,"مقدار",i)
+    index=index+1

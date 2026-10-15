@@ -1,0 +1,37 @@
+grades=[]
+for i in range(5):
+    grade=int(input("enter your grade:"))
+    grades.append(grade)
+
+
+print(grades)
+
+total=0
+for i in grades:
+    total=total+i
+
+print(total)
+
+Average=total / 5
+print(Average)
+
+biggest=grades[0]
+for i in grades:
+    if i > biggest:
+        biggest=i
+
+print(biggest)
+
+smallest=grades[0]
+for i in grades:
+    if i < smallest:
+        smallest=i
+
+print(smallest)
+
+count=0
+for i in grades:
+    if i > 10:
+        count=count+1
+
+print(count)

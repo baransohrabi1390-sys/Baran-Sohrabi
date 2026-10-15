@@ -1,0 +1,18 @@
+# def biggest_number(x):
+#     biggest=x[0]
+#     for i in x:
+#         if i>biggest:
+#             biggest=i
+#     return biggest
+
+# print(biggest_number([2,8,10,65,3]))
+
+# def hello(name):
+#     print("hello",name)
+
+# hello("baran")
+# hello("arshia")
+
+for day in range(1,8):
+    for hour in range(1,25):
+        print("day",day,"hour",hour)

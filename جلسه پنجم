@@ -1,0 +1,36 @@
+# count=0
+# numbers=[1,20,3,4,5]
+# for i in numbers:
+#     count=count+i
+
+# Average=count / 5 
+
+# print(Average)
+
+
+# numbers=[155,34,12,50,78,200]
+# smallest=numbers[0]
+# for i in numbers:
+#     if i > smallest:
+#         smallest=i
+
+
+# print(smallest)
+
+# count=0
+# my_list=["baran","arshia","faranak"]
+# for i in my_list:
+#     print(len(i))
+#     if len(i) < 2:
+#         count=count+1
+
+# print(count)
+
+
+
+# my_name="mohammad"
+# length=len(my_name)
+# print(length)
+
+
+

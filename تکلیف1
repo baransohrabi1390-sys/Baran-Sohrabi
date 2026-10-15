@@ -1,0 +1,8 @@
+for i in range(3):
+    num = int(input("enter your number: "))
+if num == 0:
+    print("number is zero")
+elif num % 2 == 0:
+    print("zoj")
+else:
+    print("fard")
