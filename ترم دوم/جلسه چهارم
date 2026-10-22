@@ -1,0 +1,59 @@
+numbers=[1,2,3,4,5]
+numbers.append(6)
+print(numbers)
+numbers.remove(4)
+print(numbers)
+
+
+total=0
+numbers2=[4,8,9,10,3,5]
+for num in numbers2:
+    total=total+num
+    
+    
+print(total)
+
+zoj=0
+numbers3=[2,6,7,8,10]
+for num in numbers3:
+    if num % 2 == 0:
+        zoj=zoj+1
+
+print(zoj)
+
+biggest=0
+numbers4=[3,6,8,10,18,3]
+biggest=numbers4[0]
+for num in numbers4:
+    if num > biggest:
+        biggest=num
+
+print(biggest)
+
+average=[]
+total=0
+numbers5=[2,4,6,8]
+for num in numbers5:
+    total=total+num
+
+average=total / len(numbers5)
+
+print(average)
+
+count=[]
+numbers6=[7,11,12,4,6]
+for num in numbers6:
+    if num > 10:
+        count.append(num)
+
+print(count)
+
+count=[]
+numbers7=[7,9,10,6,6,9,5]
+for num in numbers7:
+    if num not in count:
+        count.append(num)
+
+print(count)
+
+
